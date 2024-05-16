@@ -63,4 +63,9 @@ public class CosaDaoH2 implements IDao<Cosa> {
         return cosaRegistrado;
     }
 
+    @Override
+    public Cosa buscarPorId(Long id) {
+        return null;
+    }
+
 }
